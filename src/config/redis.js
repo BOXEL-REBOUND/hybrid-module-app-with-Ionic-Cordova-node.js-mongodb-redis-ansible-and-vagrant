@@ -12,4 +12,4 @@ redisClient.on('error', function (err) {
     logger.error('Redis error: ' + err);
 });
 
-module.exports = redisClien
+module.exports = redisClient;
